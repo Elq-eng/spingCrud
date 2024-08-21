@@ -1,0 +1,71 @@
+2024-08-21T13:13:51.329-05:00  INFO 1576 --- [main] c.e.u.userBacker.UserBackerApplication   : Starting UserBackerApplication using Java 21.0.4 with PID 1576 (C:\Users\USUARIO\Documents\SpringBoot\crudAngularSpring\server\userBacker\target\classes started by USUARIO in C:\Users\USUARIO\Documents\SpringBoot\crudAngularSpring\server\userBacker)
+2024-08-21T13:13:51.332-05:00  INFO 1576 --- [main] c.e.u.userBacker.UserBackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-21T13:13:52.012-05:00  INFO 1576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-21T13:13:52.042-05:00  INFO 1576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2024-08-21T13:13:52.650-05:00  INFO 1576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-21T13:13:52.651-05:00  INFO 1576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-21T13:13:52.651-05:00  INFO 1576 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-21T13:13:52.707-05:00  INFO 1576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-21T13:13:52.708-05:00  INFO 1576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1322 ms
+2024-08-21T13:13:52.953-05:00  INFO 1576 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-21T13:13:53.014-05:00  INFO 1576 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-21T13:13:53.050-05:00  INFO 1576 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-21T13:13:53.297-05:00  INFO 1576 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-21T13:13:53.316-05:00  INFO 1576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-21T13:13:53.548-05:00  INFO 1576 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42c54bad
+2024-08-21T13:13:53.549-05:00  INFO 1576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-21T13:13:53.572-05:00  WARN 1576 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-21T13:13:53.924-05:00  INFO 1576 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-21T13:13:53.927-05:00  INFO 1576 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-21T13:13:53.992-05:00  WARN 1576 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-21T13:13:54.492-05:00  INFO 1576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-21T13:13:54.503-05:00  INFO 1576 --- [main] c.e.u.userBacker.UserBackerApplication   : Started UserBackerApplication in 3.575 seconds (process running for 3.875)
+2024-08-21T13:16:09.578-05:00  INFO 8832 --- [main] c.e.u.userBacker.UserBackerApplication   : Starting UserBackerApplication using Java 21.0.4 with PID 8832 (C:\Users\USUARIO\Documents\SpringBoot\crudAngularSpring\server\userBacker\target\classes started by USUARIO in C:\Users\USUARIO\Documents\SpringBoot\crudAngularSpring\server\userBacker)
+2024-08-21T13:16:09.581-05:00  INFO 8832 --- [main] c.e.u.userBacker.UserBackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-21T13:16:10.386-05:00  INFO 8832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-21T13:16:10.413-05:00  INFO 8832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2024-08-21T13:16:11.038-05:00  INFO 8832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-21T13:16:11.049-05:00  INFO 8832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-21T13:16:11.050-05:00  INFO 8832 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-21T13:16:11.098-05:00  INFO 8832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-21T13:16:11.099-05:00  INFO 8832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1456 ms
+2024-08-21T13:16:11.331-05:00  INFO 8832 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-21T13:16:11.403-05:00  INFO 8832 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-21T13:16:11.456-05:00  INFO 8832 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-21T13:16:11.789-05:00  INFO 8832 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-21T13:16:11.813-05:00  INFO 8832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-21T13:16:12.097-05:00  INFO 8832 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46cf8c07
+2024-08-21T13:16:12.102-05:00  INFO 8832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-21T13:16:12.161-05:00  WARN 8832 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-21T13:16:12.616-05:00  INFO 8832 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-21T13:16:12.620-05:00  INFO 8832 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-21T13:16:12.684-05:00  WARN 8832 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-21T13:16:13.133-05:00  INFO 8832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-21T13:16:13.142-05:00  INFO 8832 --- [main] c.e.u.userBacker.UserBackerApplication   : Started UserBackerApplication in 4.137 seconds (process running for 4.616)
+2024-08-21T13:16:33.183-05:00  INFO 21604 --- [main] c.e.u.userBacker.UserBackerApplication   : Starting UserBackerApplication using Java 21.0.4 with PID 21604 (C:\Users\USUARIO\Documents\SpringBoot\crudAngularSpring\server\userBacker\target\classes started by USUARIO in C:\Users\USUARIO\Documents\SpringBoot\crudAngularSpring\server\userBacker)
+2024-08-21T13:16:33.189-05:00  INFO 21604 --- [main] c.e.u.userBacker.UserBackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-21T13:16:38.705-05:00  INFO 8832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-21T13:16:38.705-05:00  INFO 8832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-21T13:16:38.707-05:00  INFO 8832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-21T13:16:57.537-05:00  INFO 19192 --- [main] c.e.u.userBacker.UserBackerApplication   : Starting UserBackerApplication using Java 21.0.4 with PID 19192 (C:\Users\USUARIO\Documents\SpringBoot\crudAngularSpring\server\userBacker\target\classes started by USUARIO in C:\Users\USUARIO\Documents\SpringBoot\crudAngularSpring\server\userBacker)
+2024-08-21T13:16:57.542-05:00  INFO 19192 --- [main] c.e.u.userBacker.UserBackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-21T13:16:58.323-05:00  INFO 19192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-21T13:16:58.352-05:00  INFO 19192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2024-08-21T13:16:58.926-05:00  INFO 19192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-21T13:16:58.937-05:00  INFO 19192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-21T13:16:58.937-05:00  INFO 19192 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-21T13:16:58.987-05:00  INFO 19192 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-21T13:16:58.988-05:00  INFO 19192 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1398 ms
+2024-08-21T13:16:59.252-05:00  INFO 19192 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-21T13:16:59.322-05:00  INFO 19192 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-21T13:16:59.370-05:00  INFO 19192 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-21T13:16:59.628-05:00  INFO 19192 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-21T13:16:59.647-05:00  INFO 19192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-21T13:16:59.860-05:00  INFO 19192 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e67cfe1
+2024-08-21T13:16:59.861-05:00  INFO 19192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-21T13:16:59.886-05:00  WARN 19192 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-21T13:17:00.357-05:00  INFO 19192 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-21T13:17:00.362-05:00  INFO 19192 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-21T13:17:00.417-05:00  WARN 19192 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-21T13:17:00.939-05:00  INFO 19192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-21T13:17:00.949-05:00  INFO 19192 --- [main] c.e.u.userBacker.UserBackerApplication   : Started UserBackerApplication in 3.833 seconds (process running for 4.128)

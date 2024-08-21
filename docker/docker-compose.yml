@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+# contenedor 1
+  myDB:
+    image: postgres:15.3
+    container_name: my-database
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=alumno
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=course-db
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+
+# contendor 2 
+  pdAdmin:
+    image: dpage/pgadmin4:6.17
+    restart: always
+    depends_on:
+      - myDB
+    ports:
+      - "8081:80"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=superman@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=122333
+    volumes:
+      - ./pgadmin:/var/lib/pgadmin
